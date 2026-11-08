@@ -1,0 +1,33 @@
+{
+  "frames": 3000,
+  "vehicles": 766,
+  "detections_per_frame": 62.82233333333333,
+  "detect_ms_per_frame": 76.0077595996845,
+  "track_ms_per_frame": 8.543438033326916,
+  "calibration": {
+    "gcp_reprojection_px": 1.308114153858026,
+    "checkpoint_error_m": 0.6161865604898336
+  },
+  "mot": {
+    "gt_objects": 189400,
+    "tp": 178845,
+    "fp": 318,
+    "fn": 10555,
+    "id_switches": 113,
+    "mota": 0.9419957761351637,
+    "recall": 0.9442713833157339,
+    "precision": 0.9982250799551247,
+    "position_rmse_m": 0.29885125311191346
+  },
+  "counts": {
+    "intervals": 30,
+    "interval_s": 10.0,
+    "truth_total": 707.0,
+    "video_total": 677.0,
+    "loop_total": 660.0,
+    "video_weight": 0.11350293542074362,
+    "rmse_loop": 1.9148542155126762,
+    "rmse_video": 0.8944271909999159,
+    "rmse_fused": 1.2371240477962437
+  }
+}
